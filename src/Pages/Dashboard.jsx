@@ -23,7 +23,7 @@ const handleAnalyze = async () => {
     setLoading(true);
     setShowResults(false);
 
-    const response = await fetch("http://localhost:5000/analyze", {
+    const response = await fetch("https://linkedin-enhancer-g8ej.onrender.com/analyze", {
       method: "POST",
       headers: {
         "Content-Type": "application/json",

@@ -21,7 +21,7 @@ const bestScore =
       )
     : 0;
   useEffect(() => {
-    fetch("http://localhost:5000/history")
+    fetch("https://linkedin-enhancer-g8ej.onrender.com/history")
       .then((res) => res.json())
       .then((data) => setHistory(data))
       .catch((err) => console.error(err));
