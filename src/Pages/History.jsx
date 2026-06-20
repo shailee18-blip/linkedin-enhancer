@@ -29,7 +29,7 @@ const bestScore =
 
   const deleteAnalysis = async (id) => {
     try {
-      await fetch(`http://localhost:5000/history/${id}`, {
+      await fetch(`http://linkedin-enhancer-g8ej.onrender.com/history/${id}`, {
         method: "DELETE",
       });
 
